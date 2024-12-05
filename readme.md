@@ -1,7 +1,9 @@
 # Accurate and Robust Scene Text Recognition via Adversarial Training
 This repository is the implementation of paper "[Accurate and Robust Scene Text Recognition via Adversarial Training](https://ieeexplore.ieee.org/abstract/document/10445827)", which explores the possiblity to use adversarial training as a dataset augmentation method, escially for the text images in low-resolution. Although it is implemented on two simple STR models, the models with adversarial training could recognize some hard cases reported in the [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark).
 
-![Recognition results for hard cases.](hard_cases.png)
+<p align="center">
+<img src="hard_cases.png" width=430 height=200>
+</p>
 
 ## Dependency
 - This work was tested with PyTorch1.3.1 , CUDA 10.2, python 3.6 and Ubuntu 18.04.
